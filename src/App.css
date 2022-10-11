@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%); 
+}
+.login-box{
+  background-color: white;
+  border-radius: 10px;
+}
+.form-label {
+  text-align: left;
+  width: 100%;
+  color: #4b6cb7;
+  font-family: 'Comfortaa', cursive;
+  margin-bottom: 0px !important;
+  font-size: 14px;
+}
+.form-input {
+  font-family: 'Comfortaa', cursive;
+}
+.error {
+  text-align: left;
+  font-size: 10px;
+  color: red;
+}
+.login-label{
+  font-family:  'Comfortaa', cursive;
+  color: #4b6cb7;
+  font-weight: bold;
+  font-size: 28px;
+}
+.login-button{
+  margin: auto;
+  width: 100%;
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4b6cb7;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  font-weight: 600;
+}
